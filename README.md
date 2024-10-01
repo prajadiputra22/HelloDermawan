@@ -1,3 +1,5 @@
+![alt text](https://github.com/prajadiputra22/HelloDermawan/blob/main/src/asset/image/WhatsApp%20Image%202024-10-01%20at%2017.24.42_03673240.jpg?raw=true)
+
 This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
 # Getting Started
