@@ -28,12 +28,14 @@ const TodoList = () => {
             };
             setTodo([...todo, newTodo]);
             setTitle('');
+            Alert.alert('Success', 'Todo added successfully');
         }
     };
 
     const handleDeleteTodo = (id: number) => {
         const updatedTodos = todo.filter(item => item.id !== id);
         setTodo(updatedTodos);
+        Alert.alert('Deleted', 'Todo deleted successfully');
     };
 
     const handleEditTodo = (id: number, currentTitle: string) => {
@@ -48,6 +50,7 @@ const TodoList = () => {
         setTodo(updatedTodos);
         setEditingId(null);
         setTitle('');
+        Alert.alert('Updated', 'Todo updated successfully');
     };
 
     return (
